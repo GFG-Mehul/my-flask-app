@@ -8,7 +8,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'The CI-CD pipeline is been developed now......'
+        return 'The CI-CD pipeline been developed now......Horray'
 
     return app
 
