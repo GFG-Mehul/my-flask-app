@@ -1,6 +1,6 @@
 # app.py
 
-from flask import Flask 
+from flask import Flask  # type: ignore
 from urllib.parse import quote 
 
 def create_app():
@@ -8,7 +8,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'The CI-CD pipeline been developed now......Horrayy'
+        return 'The CI-CD pipeline been developed now yippeeee wowww......Horrayy'
 
     return app
 
