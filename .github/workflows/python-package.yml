@@ -80,7 +80,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Build and push
-        uses: mehuldockerpractice/gfg27img@latest
+        uses: docker/build-push-action@v6
         with:
           push: true
           tags: mehuldockerpractice/gfg27img@latest
